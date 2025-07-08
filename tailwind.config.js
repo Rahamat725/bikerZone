@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+           "bike-zone":"#E76F51",
+      },
+    },
   },
   plugins: [],
 };
